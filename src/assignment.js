@@ -1,20 +1,15 @@
 // ========================
 // DO NOT EDIT THIS BLOCK
 const assignment = {};
-// ========================
 
-
-/**
- * Challenge - 1
- * 
- * Calculate and return the sum of the numbers in an array.
- * If you did Challenge - 1, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
- * @returns number the sum of the numbers
- */
-function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+//Challenge - 1
+ function sumOfNumbers(arrayOfNumbers) {
+  var total=0;
+  for(var i in arrayofnumbers) {
+      total += arrayofnumbers[i];
+  } 
+  console.log(total);
+   // return arrayOfNumbers.length;
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
